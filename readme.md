@@ -19,6 +19,8 @@ git clone git@github.com:buetcse17/Zoom-Meetings-Auto-Join.git
 
 ## Step 3
 #### (Only for the first time) 
+### For Linux 
+
 Open terminal
 ```sh
 pip3 install virtualenv
@@ -28,10 +30,27 @@ pip install -r requirements.txt
 deactivate
 chmod +x zoom-cli.sh
 ```
+### For Windows
+Open cmd
+```sh
+pip install virtualenv
+virtualenv myenv
+.\myenv\Scripts\activate
+pip install -r requirements.txt
+.\myenv\Scripts\deactivate
+```
+
 ## Step 4
+### For Linux 
 Done. Now everytime you just have to run the .sh file only
 ```sh
 ./zoom-cli.sh
+```
+### For Windows
+Done. Now everytime you just have to run the `main.py` file only
+```sh
+.\myenv\Scripts\activate
+python main.py
 ```
 <img src="assets/zoom-cli-terminal.png" alt="Zoom Image"/>
 
