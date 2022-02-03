@@ -68,5 +68,4 @@ This script won't automatically leave meetings (as it can be unexpected/dangerou
 ### Author
 Kawshik Kumar Paul\
 BUET CSE'17\
-https://kawshikbuet17.github.io\
 kawshik.kumar.paul@gmail.com
